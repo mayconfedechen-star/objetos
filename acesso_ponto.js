@@ -11,4 +11,4 @@ console.log(
 
 );
 
-console.log(`Os 3 primeiros digitos do cpf são $ ({ maycon. cpf. substring ( 0, 3)}`);
+console.log(`Os 3 primeiros digitos do cpf são $ ({ maycon. cpf. substring ( 0, 3)}`);   
