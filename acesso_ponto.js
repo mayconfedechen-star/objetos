@@ -2,7 +2,7 @@ const maycon={
     nome: "maycon",
      idade: 32,
      cpf:"1122233345",
-     email:"andre@dominio.com",
+     email:"maycon@dominio.com",
 
 };
 
@@ -11,4 +11,9 @@ console.log(
 
 );
 
-console.log(`Os 3 primeiros digitos do cpf são $ ({ maycon. cpf. substring ( 0, 3)}`);   
+const chaves = [ "nome" ,"idade " ,"cpf","email"];
+
+chaves.forEach((chave) => {
+    console.log(` A chave $(chave) tem valor ${maycon [chave]})`);
+
+});
