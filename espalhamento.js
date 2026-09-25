@@ -17,6 +17,14 @@ const cliente = {
     function ligaParaCliente (telefoneComercial, telefoneResidencial) {
         console.log(`ligando para ${ telefone}`);
         console.log(`ligando para ${telefoneResidencial}`);
-    }
+    };
 
     ligaParaCliente(cliente.telefone[0], cliente.telefone [1]);
+    const encomenda={
+        destinatario: cliente.nome,
+        endereco: cliente.endereco[0],
+
+
+    };
+
+console.log( encomenda);
