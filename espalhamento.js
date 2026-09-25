@@ -13,8 +13,10 @@ const cliente = {
     complemento: "ap 934",
     },
     ];
-    
+
     function ligaParaCliente (telefoneComercial, telefoneResidencial) {
         console.log(`ligando para ${ telefone}`);
         console.log(`ligando para ${telefoneResidencial}`);
     }
+
+    ligaParaCliente(cliente.telefone[0], cliente.telefone [1]);
