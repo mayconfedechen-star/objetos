@@ -22,9 +22,7 @@ const cliente = {
     ligaParaCliente(cliente.telefone[0], cliente.telefone [1]);
     const encomenda={
         destinatario: cliente.nome,
-        endereco: cliente.endereco[0],
-
-
+      ...cliente.enderecos[0],
     };
 
 console.log( encomenda);
